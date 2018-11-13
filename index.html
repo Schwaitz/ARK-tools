@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>ARK Tools</title>
+
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"/>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"/>
+
+    <!--<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css"/>-->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>-->
+
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/resources.js"></script>
+    <script src="./assets/js/kibble.js"></script>
+    <script src="./assets/js/cooking.js"></script>
+
+
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+
+
+    <link rel="manifest" href="./manifest.json">
+    <link rel="shortcut icon" href="./favicon.ico">
+
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" width="30px" height="30px" class="d-inline-block align-top" alt="">ARK Tools</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+            <!--<li class="nav-item"><a class="nav-link" href="#">Map</a></li>-->
+
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Links</a>
+                <div id="dropdown-links" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"></div>
+            </li>
+
+
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <button id="debug" class="btn btn-sm align-middle btn-outline-secondary" type="button">Debug Grid</button>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="container-fluid" style="margin-top: 20px;">
+
+
+    <nav class="nav nav-tabs" id="tab-menu" role="tablist">
+        <a class="nav-item nav-link active" id="nav-links-tab" data-toggle="tab" href="#nav-links" role="tab" aria-controls="nav-links" aria-expanded="true">Links</a>
+        <!--<a class="nav-item nav-link" id="nav-battlemetrics-tab" data-toggle="tab" href="#nav-battlemetrics" role="tab" aria-controls="nav-battlemetrics">BattleMetrics</a>-->
+        <a class="nav-item nav-link" id="nav-map-tab" data-toggle="tab" href="#nav-map" role="tab" aria-controls="nav-map">Maps (Broken)</a>
+        <a class="nav-item nav-link" id="nav-kibble-tab" data-toggle="tab" href="#nav-kibble" role="tab" aria-controls="nav-kibble">Kibble</a>
+        <a class="nav-item nav-link" id="nav-cooking-tab" data-toggle="tab" href="#nav-cooking" role="tab" aria-controls="nav-cooking">Cooking</a>
+        <a class="nav-item nav-link" id="nav-breeding-tab" data-toggle="tab" href="#nav-breeding" role="tab" aria-controls="nav-breeding">Imprint</a>
+
+    </nav>
+
+
+    <div class="tab-content" id="nav-tabContent" style="padding-top:20px; padding-left: 20px;">
+
+        <div class="tab-pane fade show active" id="nav-links" role="tabpanel" aria-labelledby="nav-links-tab">
+            <div id="tab-links" class="list-group" style="width:50%;"><!--Populated by index.js--></div>
+
+            <iframe src="https://discordapp.com/widget?id=459211020494307338&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" style="right:50px; top:125px; position: absolute;"></iframe>
+
+
+            <br/>
+
+            <div style="position: absolute; bottom:25px;left:25px;">
+                <iframe src="https://cdn.battlemetrics.com/b/standardVertical/1756027.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3A24H&chartColor=%23FF0700&maxPlayersHeight=300" frameborder=0
+                        style="border:0" name="CA10Island"></iframe>
+
+
+                <iframe src="https://cdn.battlemetrics.com/b/standardVertical/1756036.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3A24H&chartColor=%23FF0700&maxPlayersHeight=300" frameborder=0
+                        style="border:0" name="CA10Center"></iframe>
+
+
+                <iframe src="https://cdn.battlemetrics.com/b/standardVertical/1756012.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3A24H&chartColor=%23FF0700&maxPlayersHeight=300" frameborder=0
+                        style="border:0" name="CA10Rag"></iframe>
+
+
+                <iframe src="https://cdn.battlemetrics.com/b/standardVertical/1756647.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3A24H&chartColor=%23FF0700&maxPlayersHeight=300" frameborder=0
+                        style="border:0" name="CA10Aberration"></iframe>
+
+
+                <iframe src="https://cdn.battlemetrics.com/b/standardVertical/1755715.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3A24H&chartColor=%23FF0700&maxPlayersHeight=300" frameborder=0
+                        style="border:0" name="CA10SE"></iframe>
+
+            </div>
+        </div>
+
+
+        <!--<div class="tab-pane fade" id="nav-torpor" role="tabpanel" aria-labelledby="nav-torpor-tab">-->
+        <!--<h2 style="margin-bottom: 20px;">Counter</h2>-->
+
+        <!--<div class="row row-padding">-->
+        <!--<div class="col-auto">Total:</div>-->
+        <!--<div class="col-auto"><input id="total" type="text" placeholder="" value="1000"></div>-->
+        <!--</div>-->
+
+
+        <!--<div class="row row-padding">-->
+        <!--<div class="col-1-auto"><span id="current-num">500</span></div>-->
+        <!--<div class="col-auto"><input id="current" min="0" value="500" max="1000" type="range" title="Current"/></div>-->
+        <!--<div class="col-1-auto"><span id="total_num">1000</span></div>-->
+        <!--</div>-->
+
+        <!--<div class="row row-padding">-->
+        <!--<div class="col-auto"><span id="narc">Narcotics Needed: </span></div>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="tab-pane fade" id="nav-battlemetrics" role="tabpanel" aria-labelledby="nav-battlemetrics-tab">-->
+
+
+        <!---->
+
+        <!--</div>-->
+
+
+        <div class="tab-pane fade" id="nav-map" role="tabpanel" aria-labelledby="nav-map-tab">
+
+            <div>
+                <h2 id="current-map" style="position: relative;"></h2>
+                <button class="map-button" type="button" data-map="TheIsland">The Island</button>
+                <button class="map-button" type="button" data-map="TheCenter">The Center</button>
+                <button class="map-button" type="button" data-map="Ragnarok">Ragnarok</button>
+                <button class="map-button" type="button" data-map="ScorchedEarth">Scorched Earth</button>
+                <button class="map-button" type="button" data-map="Aberration">Aberration</button>
+            </div>
+
+            <div id="output" style="position:relative; width:800px; height:800px; margin-right:10px; margin-top: 25px;float:left;">
+                <img id="mapImage" width="800" height="800">
+            </div>
+
+            <div>
+                <h2 style="margin-top:20px;">Resources</h2>
+                <div id="checkboxes" class="custom-controls-stacked" style="float:left;"></div>
+            </div>
+
+
+        </div>
+
+
+        <div class="tab-pane fade" id="nav-kibble" role="tabpanel" aria-labelledby="nav-kibble-tab">
+
+            <div id="egg-data" class="container" style="border: 2px solid white;">
+
+                <div class="row" style="border-bottom: 2px solid white; margin-bottom: 25px; padding-top: 10px; padding-bottom: 10px;">
+                    <div class="col egg-col">
+                        <strong>Dino</strong>
+                    </div>
+                    <div class="col egg-col">
+                        <strong>Veggie</strong>
+                    </div>
+                    <div class="col egg-col">
+                        <strong>Food</strong>
+                    </div>
+                    <div class="col egg-col">
+                        <strong>Tames</strong>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="tab-pane fade" id="nav-cooking" role="tabpanel" aria-labelledby="nav-cooking-tab">
+            <div id="cookingCalc"></div>
+        </div>
+
+        <div class="tab-pane fade" id="nav-breeding" role="tabpanel" aria-labelledby="nav-breeding-tab">
+            <!--<div class="row">-->
+            <!--<div class="col-auto"><span>Growing Time: </span></div>-->
+            <!--<div class="col-auto"><input type="time" class="without_ampm"/></div>-->
+            <!--</div>-->
+
+            <div class="row">
+                <div class="col-auto"><span>Hatch Time: </span></div>
+                <div class="col-auto"><input class="breeding-time without_ampm" id="hatch-time" type="time"/></div>
+            </div>
+
+            <!--<div class="row">-->
+            <!--<div class="col-2"><span>1st Imprint: </span></div>-->
+            <!--<div class="col-auto"><input class="breeding-time" id="1st-time" type="time"/></div>-->
+            <!--</div>-->
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+</body>
+</html>

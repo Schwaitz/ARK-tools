@@ -1,0 +1,78 @@
+{
+  "Air Conditioner": {
+    "ingredients": [
+      {
+        "quantity": 80,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 15,
+        "name": "Electronics"
+      },
+      {
+        "quantity": 5,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 15,
+        "name": "Crystal"
+      }
+    ]
+  },
+  "Artifact Pedastal": {
+    "ingredients": [
+      {
+        "quantity": 80,
+        "name": "Obsidian"
+      }
+    ]
+  },
+  "Auto Turret": {
+    "ingredients": [
+      {
+        "quantity": 70,
+        "name": "Electronics"
+      },
+      {
+        "quantity": 140,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 50,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 20,
+        "name": "Polymer"
+      }
+    ]
+  },
+  "Balista Turret": {
+    "ingredients": [
+      {
+        "quantity": 500,
+        "name": "Wood"
+      },
+      {
+        "quantity": 300,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 250,
+        "name": "Stone"
+      },
+      {
+        "quantity": 200,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 100,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 100,
+        "name": "Hide"
+      }
+    ]
+  }
+}
