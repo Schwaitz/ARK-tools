@@ -13,14 +13,44 @@ body {
     /*overflow: hidden;*/
 }
 
-#current {
-    width: 16em;
+#res-legend {
+    color: whitesmoke;
 }
 
-#total {
-    width: 4em;
-    text-align: center;
+#boxes{
 }
+
+
+
+
+.bm-button {
+    width: 150px;
+    margin-right: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#bm-space {
+    width: 200px;
+    height: 293px;
+    border: solid dimgray;
+}
+#output {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.container-fluid {
+    margin-top: 1vh;
+}
+
 
 .hidden {
     visibility: hidden;
@@ -36,33 +66,6 @@ h1, h2, h3, h4, h5, p {
     align-items: center;
 }
 
-.row-padding {
-    padding-bottom: 20px;
-}
-
-#render-canvas {
-    /*border: solid;*/
-}
-
-.egg-row {
-    /*border: 1px solid rgba(255, 181, 134, 0.50);*/
-    border-bottom: 1px solid gray;
-    margin-bottom: 25px;
-    padding-bottom: 25px;
-}
-
-.breeding-time {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.egg-col {
-    /*border: 1px solid rgba(143, 196, 255, 0.50);*/
-}
-
-.kibble-link {
-    color: lightblue;
-}
 
 .cooking-tab {
     border: solid;
@@ -73,9 +76,6 @@ h1, h2, h3, h4, h5, p {
     padding-bottom: 10px;
 }
 
-.without_ampm::-webkit-datetime-edit-ampm-field {
-    display: none;
-}
 
 input[type=time]::-webkit-clear-button {
     -webkit-appearance: none;
@@ -85,7 +85,6 @@ input[type=time]::-webkit-clear-button {
     appearance: none;
     margin: -10px;
 }
-
 
 
 /*div[class^='row'], div[class*=' row'] {*/

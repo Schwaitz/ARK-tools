@@ -1,0 +1,12 @@
+ var new_component_json = {
+    crystal: {name: 'Crystal', color: 'PaleTurquoise', display: 'true'},
+    metal: {name: 'Metal', color: 'grey', display: 'true'},
+    richMetal: {name: 'Rich Metal', color: 'GoldenRod', display: 'true'},
+    obsidian: {name: 'Obsidian', color: 'BlueViolet', display: 'true'},
+    oil: {name: 'Oil', color: 'black', display: 'true'},
+    silica: {name: 'Silica Pearls', color: 'white', display: 'true'},
+    riverRock: {name: 'River Rock', color: 'Bisque', display: 'true'},
+    salt: {name: 'Salt', color: 'AliceBlue', display: 'true'},
+    sulfur: {name: 'Sulfur', color: 'Yellow', display: 'true'},
+    cactus: {name: 'Cactus', color: 'OliveDrab', display: 'true'}
+};

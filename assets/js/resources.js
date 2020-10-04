@@ -1,114 +1,109 @@
-var component_templates = {
-    crystal: {name: 'Crystal', color: 'PaleTurquoise'},
-    metal: {name: 'Metal', color: 'grey'},
-    richMetal: {name: 'Rich Metal', color: 'GoldenRod'},
-    obsidian: {name: 'Obsidian', color: 'BlueViolet'},
-    oil: {name: 'Oil', color: 'black'},
-    silica: {name: 'Silica Pearls', color: 'white'},
-	riverRock: {name: 'River Rock', color: 'Bisque'},
-	salt: {name: 'Salt', color: 'AliceBlue'},
-	sulfur: {name: 'Sulfur', color: 'Yellow'},
-	cactus: {name: 'Cactus', color: 'OliveDrab'}
+var components = {
+    metal: {name: 'Metal', color: 'grey', display: 'true'},
+    richMetal: {name: 'Rich Metal', color: 'GoldenRod', display: 'true'},
+    crystal: {name: 'Crystal', color: 'PaleTurquoise', display: 'true'},
+    obsidian: {name: 'Obsidian', color: 'BlueViolet', display: 'false'},
+    oil: {name: 'Oil', color: 'black', display: 'false'},
+    silica: {name: 'Silica Pearls', color: 'white', display: 'false'},
+    // riverRock: {name: 'River Rock', color: 'Bisque', display: 'true'},
+    salt: {name: 'Salt', color: 'AliceBlue', display: 'false'},
+    sulfur: {name: 'Sulfur', color: 'Yellow', display: 'false'},
+    // cactus: {name: 'Cactus', color: 'OliveDrab', display: 'true'}
+};
 
-}
-
-
-var components = {};
+var currentMap = "Ragnarok";
 
 
-var currentMap = "TheIsland";
+$(document).ready(function () {
 
 
-$(document).ready(function() {
+    // $("#current-map").text(currentMap);
+    loadMap(currentMap, components);
 
+    for (var componentName in components) {
+        var component = components[componentName];
+        var startChecked = component["display"];
 
-    loadMap("TheCenter");
-	$("#current-map").text("The Center");
+        if (startChecked == "true") {
+            $("#boxes").append("<input class='form-check-input res-check' type='checkbox' value='' id='" + componentName + "' name='checkbox-stacked' checked><label class='form-check-label res-label' for='" + componentName + "'>" + component["name"] + "</label><br/>")
+        } else {
+            $("#boxes").append("<input class='form-check-input res-check' type='checkbox' value='' id='" + componentName + "' name='checkbox-stacked'><label class='form-check-label res-label' for='" + componentName + "'>" + component["name"] + "</label><br/>")
+        }
 
-    for (var componentName in component_templates) {
-        var component = component_templates[componentName];
-        $("#checkboxes").append("<label class='custom-control custom-checkbox'>" +
-            "<input id='" + componentName + "' name='checkbox-stacked' type='checkbox' class='custom-control-input'>" +
-            "<span class='custom-control-indicator'></span>" +
-            "<span class='custom-control-description'>" + component["name"] + "</span>" +
-            "</label>");
     }
 
 
     $(":button").click(function () {
-
         if ($(this).hasClass("map-button")) {
-            $("#current-map").text($(this).text());
-            loadMap(this.dataset.map);
+
+            if ($(this).text().localeCompare(currentMap) !== 0) {
+                // $("#current-map").text($(this).text());
+                loadMap(this.dataset.map, components);
+                currentMap = this.dataset.map
+
+            }
         }
     });
 
 
-    $(":checkbox").click(function () {
+    $('input[name=checkbox-stacked]').change(function () {
         var res_name = $(this).prop("id");
 
-        // False to True
-        if ($(this).prop("checked") === true) {
-
-            components[res_name] = component_templates[res_name];
-            loadMap(currentMap);
-        }
-
-        // True to False
-        else {
-            delete components[res_name];
-            loadMap(currentMap);
+        if ($(this).is(':checked')) {
+            components[res_name]["display"] = "true";
+            loadMap(currentMap, components);
+        } else {
+            components[res_name]["display"] = "false";
+            loadMap(currentMap, components);
         }
     });
-
 
 });
 
 
-function loadMap(name) {
+function loadMap(name, components) {
+    (function () {
+        var map = name;
+        fetch('assets/maps/json/' + map + '/map.json', {cache: 'reload'}).then(function (response) {
+            return response.json();
+        }).then(function (data) {
+            document.getElementById('mapImage').src = 'assets/maps/imgs/' + map + ".jpg";
 
+            var output = document.getElementById('output');
+            while (output.firstChild && output.firstChild.nodeName === 'DIV') {
+                output.removeChild(output.firstChild);
+            }
 
-    var map = name;
-    currentMap = name;
-    fetch('./assets/maps/' + map + '/map.json', {cache: 'reload'}).then(function (response) {
-        return response.json();
-    }).then(function (data) {
-        document.getElementById('mapImage').src = './assets/maps/' + map + '/' + data.heldMap;
+            for (var componentName in components) {
+                var component = components[componentName];
+                if (component["display"] === "true") {
+                    if (data[componentName]) {
+                        for (var node of data[componentName]) {
+                            var lat = node.lat;
+                            var lon = node.long;
+                            var mapsize = 800;
+                            var ms = 7;
+                            var mt = 'lat ' + lat + ', lon ' + lon;
+                            var borderCoords = {t: 0.0, r: 100.0, b: 100.0, l: 0.0};
 
-        var output = document.getElementById('output');
-        while (output.firstChild && output.firstChild.nodeName === 'DIV') {
-            output.removeChild(output.firstChild);
-        }
+                            var div = document.createElement('div');
+                            div.style.position = 'absolute';
+                            div.style.lineHeight = 0;
+                            div.style.left = 100 * ((lon - borderCoords.l) / (borderCoords.r - borderCoords.l) - ms / (2 * mapsize)) + '%';
+                            div.style.top = 100 * ((lat - borderCoords.t) / (borderCoords.b - borderCoords.t) - ms / (2 * mapsize)) + '%';
+                            div.style.padding = 0;
+                            div.style.width = ms + 'px';
+                            div.style.height = ms + 'px';
+                            div.style.borderRadius = '50%';
+                            div.style.backgroundColor = component.color;
+                            div.style.border = '1px solid black';
+                            div.title = mt;
 
-        for (var componentName in components) {
-            var component = components[componentName];
-            if (data[componentName]) {
-                for (var node of data[componentName]) {
-                    var lat = node.lat;
-                    var lon = node.long;
-                    var mapsize = 800;
-                    var ms = 9;
-                    var mt = 'lat ' + lat + ', lon ' + lon;
-                    var borderCoords = {t: 0.0, r: 100.0, b: 100.0, l: 0.0};
-
-                    var div = document.createElement('div');
-                    div.style.position = 'absolute';
-                    div.style.lineHeight = 0;
-                    div.style.left = 100 * ((lon - borderCoords.l) / (borderCoords.r - borderCoords.l) - ms / (2 * mapsize)) + '%';
-                    div.style.top = 100 * ((lat - borderCoords.t) / (borderCoords.b - borderCoords.t) - ms / (2 * mapsize)) + '%';
-                    div.style.padding = 0;
-                    div.style.width = ms + 'px';
-                    div.style.height = ms + 'px';
-                    div.style.borderRadius = '50%';
-                    div.style.backgroundColor = component.color;
-                    div.style.border = '1px solid black';
-                    div.title = mt;
-                    div.className = "dot";
-
-                    output.insertBefore(div, output.firstChild);
+                            output.insertBefore(div, output.firstChild);
+                        }
+                    }
                 }
             }
-        }
-    });
+        });
+    })();
 }
-
