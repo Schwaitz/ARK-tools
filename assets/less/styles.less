@@ -4,6 +4,8 @@
 
 @left-padding: 2vh;
 
+@map-image-width: 1024px;
+
 
 @media screen {
     @media (min-width: @screen-sm-min) {
@@ -41,16 +43,34 @@ body {
     /*overflow: hidden;*/
 }
 
+.container-fluid {
+    margin-top: 3vh;
+}
+
 #res-legend {
-    border: solid gray;
-    margin-top: 100px;
-    padding: 10px 10px 10px 10px;
+    color: ghostwhite;
+    //border: solid gray;
+    //margin-top: 100px;
+    //padding: 10px 10px 10px 10px;
 }
 
-
-#res-maps {
-
+#selected-map {
+    text-align: center;
 }
+
+/*#player-list {*/
+/*    color: ghostwhite;*/
+/*    margin-left: 10px;*/
+/*}*/
+
+/*#player-list-header {*/
+/*    margin-bottom: 0;*/
+/*    margin-top: 75px;*/
+/*}*/
+
+/*#player-list-ul{*/
+
+/*}*/
 
 
 #current {
@@ -76,6 +96,31 @@ h1, h2, h3, h4, h5, p {
     align-items: center;
 }
 
+.bm-button {
+    width: 150px;
+    margin-right: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#bm-space {
+    width: 200px;
+    height: 293px;
+    border: solid dimgray;
+}
+
+#output {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cookingCalc {
+    width: 50vw;
+}
 
 .cooking-tab {
     border: solid;
@@ -86,7 +131,6 @@ h1, h2, h3, h4, h5, p {
     padding-bottom: 10px;
 }
 
-
 input[type=time]::-webkit-clear-button {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -96,6 +140,16 @@ input[type=time]::-webkit-clear-button {
     margin: -10px;
 }
 
+.visually-hidden {
+    overflow: hidden;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
 
 /*div[class^='row'], div[class*=' row'] {*/
 /*border: 1px solid rgba(255, 181, 134, 0.50);*/
