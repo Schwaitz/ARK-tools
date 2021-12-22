@@ -1,0 +1,3510 @@
+{
+  "Air Conditioner": {
+    "ingredients": [
+      {
+        "quantity": 80,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 15,
+        "name": "Electronics"
+      },
+      {
+        "quantity": 5,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 15,
+        "name": "Crystal"
+      }
+    ]
+  },
+  "Artifact Pedastal": {
+    "ingredients": [
+      {
+        "quantity": 80,
+        "name": "Obsidian"
+      }
+    ]
+  },
+  "Auto Turret": {
+    "ingredients": [
+      {
+        "quantity": 70,
+        "name": "Electronics"
+      },
+      {
+        "quantity": 140,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 50,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 20,
+        "name": "Polymer"
+      }
+    ]
+  },
+  "Balista Turret": {
+    "ingredients": [
+      {
+        "quantity": 500,
+        "name": "Wood"
+      },
+      {
+        "quantity": 300,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 250,
+        "name": "Stone"
+      },
+      {
+        "quantity": 200,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 100,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 100,
+        "name": "Hide"
+      }
+    ]
+  },
+  "Bear Trap": {
+    "ingredients": [
+      {
+        "quantity": 5,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 3,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 6,
+        "name": "Hide"
+      }
+    ]
+  },
+  "Beer Barrel": {
+    "ingredients": [
+      {
+        "quantity": 500,
+        "name": "Wood"
+      },
+      {
+        "quantity": 80,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 100,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Behemoth Gate": {
+    "ingredients": [
+      {
+        "quantity": 1500,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 350,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Behemoth Gateway": {
+    "ingredients": [
+      {
+        "quantity": 2100,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 490,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 140,
+        "name": "Polymer"
+      }
+    ]
+  },
+  "Behemoth Reinforced Dinosaur Gate": {
+    "ingredients": [
+      {
+        "quantity": 450,
+        "name": "Stone"
+      },
+      {
+        "quantity": 450,
+        "name": "Wood"
+      },
+      {
+        "quantity": 450,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Behemoth Stone Dinosaur Gateway": {
+    "ingredients": [
+      {
+        "quantity": 900,
+        "name": "Stone"
+      },
+      {
+        "quantity": 900,
+        "name": "Wood"
+      },
+      {
+        "quantity": 900,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Behemoth Tek Gate": {
+    "ingredients": [
+      {
+        "quantity": 1500,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 350,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 20,
+        "name": "Element"
+      }
+    ]
+  },
+  "Behemoth Tek Gateway": {
+    "ingredients": [
+      {
+        "quantity": 2200,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 500,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 140,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 40,
+        "name": "Element"
+      }
+    ]
+  },
+  "Bookshelf": {
+    "ingredients": [
+      {
+        "quantity": 100,
+        "name": "Wood"
+      },
+      {
+        "quantity": 45,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 35,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Bunk Bed": {
+    "ingredients": [
+      {
+        "quantity": 80,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 200,
+        "name": "Pelt, Hair, or Wool"
+      },
+      {
+        "quantity": 320,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 280,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 120,
+        "name": "Hide"
+      }
+    ]
+  },
+  "Campfire": {
+    "ingredients": [
+      {
+        "quantity": 12,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 1,
+        "name": "Flint"
+      },
+      {
+        "quantity": 16,
+        "name": "Stone"
+      },
+      {
+        "quantity": 2,
+        "name": "Wood"
+      }
+    ]
+  },
+  "Cannon": {
+    "ingredients": [
+      {
+        "quantity": 950,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 200,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 150,
+        "name": "Hide"
+      },
+      {
+        "quantity": 120,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 300,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Catapult Turret": {
+    "ingredients": [
+      {
+        "quantity": 400,
+        "name": "Wood"
+      },
+      {
+        "quantity": 300,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 390,
+        "name": "Stone"
+      },
+      {
+        "quantity": 100,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 100,
+        "name": "Hide"
+      }
+    ]
+  },
+  "Chemistry Bench": {
+    "ingredients": [
+      {
+        "quantity": 250,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 250,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 100,
+        "name": "Sparkpowder"
+      },
+      {
+        "quantity": 250,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 250,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 250,
+        "name": "Electronics"
+      }
+    ]
+  },
+  "Cloning Chamber": {
+    "ingredients": [
+      {
+        "quantity": 5500,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 800,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 550,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 100,
+        "name": "Element"
+      },
+      {
+        "quantity": 200,
+        "name": "Black Pearl"
+      }
+    ]
+  },
+  "Compost Bin": {
+    "ingredients": [
+      {
+        "quantity": 50,
+        "name": "Wood"
+      },
+      {
+        "quantity": 15,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 12,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Cooking Pot": {
+    "ingredients": [
+      {
+        "quantity": 75,
+        "name": "Stone"
+      },
+      {
+        "quantity": 15,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 10,
+        "name": "Wood"
+      },
+      {
+        "quantity": 5,
+        "name": "Flint"
+      }
+    ]
+  },
+  "Dinosaur Gate": {
+    "ingredients": [
+      {
+        "quantity": 60,
+        "name": "Wood"
+      },
+      {
+        "quantity": 15,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 10,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Dinosaur Gateway": {
+    "ingredients": [
+      {
+        "quantity": 280,
+        "name": "Wood"
+      },
+      {
+        "quantity": 80,
+        "name": "Stone"
+      },
+      {
+        "quantity": 70,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 25,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Electrical Cable Intersection": {
+    "ingredients": [
+      {
+        "quantity": 2,
+        "name": "Metal Ingot"
+      }
+    ]
+  },
+  "Electrical Generator": {
+    "ingredients": [
+      {
+        "quantity": 25,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 10,
+        "name": "Electronics"
+      }
+    ]
+  },
+  "Electrical Outlet": {
+    "ingredients": [
+      {
+        "quantity": 5,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 15,
+        "name": "Wood"
+      },
+      {
+        "quantity": 3,
+        "name": "Electronics"
+      }
+    ]
+  },
+  "Elevator Track": {
+    "ingredients": [
+      {
+        "quantity": 140,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 35,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 25,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 20,
+        "name": "Electronics"
+      }
+    ]
+  },
+  "Fabricator": {
+    "ingredients": [
+      {
+        "quantity": 35,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 20,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 50,
+        "name": "Sparkpowder"
+      },
+      {
+        "quantity": 15,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 10,
+        "name": "Oil"
+      }
+    ]
+  },
+  "Feeding Trough": {
+    "ingredients": [
+      {
+        "quantity": 120,
+        "name": "Wood"
+      },
+      {
+        "quantity": 60,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 40,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 8,
+        "name": "Metal"
+      }
+    ]
+  },
+  "Giant Metal Hatchframe": {
+    "ingredients": [
+      {
+        "quantity": 240,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 64,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Giant Metal Trapdoor": {
+    "ingredients": [
+      {
+        "quantity": 360,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 120,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Giant Reinforced Trapdoor": {
+    "ingredients": [
+      {
+        "quantity": 300,
+        "name": "Stone"
+      },
+      {
+        "quantity": 210,
+        "name": "Wood"
+      },
+      {
+        "quantity": 120,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Giant Stone Hatchframe": {
+    "ingredients": [
+      {
+        "quantity": 400,
+        "name": "Stone"
+      },
+      {
+        "quantity": 200,
+        "name": "Wood"
+      },
+      {
+        "quantity": 120,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Gravestone": {
+    "ingredients": [
+      {
+        "quantity": 70,
+        "name": "Stone"
+      },
+      {
+        "quantity": 8,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Greenhouse Ceiling": {
+    "ingredients": [
+      {
+        "quantity": 10,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 35,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 10,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Greenhouse Door": {
+    "ingredients": [
+      {
+        "quantity": 3,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 10,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 4,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Greenhouse Doorframe": {
+    "ingredients": [
+      {
+        "quantity": 5,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 20,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 5,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Greenhouse Wall": {
+    "ingredients": [
+      {
+        "quantity": 7,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 25,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 7,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Greenhouse Window": {
+    "ingredients": [
+      {
+        "quantity": 1,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 3,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 1,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Hide Sleeping Bag": {
+    "ingredients": [
+      {
+        "quantity": 25,
+        "name": "Hide"
+      },
+      {
+        "quantity": 15,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Homing Underwater Mine": {
+    "ingredients": [
+      {
+        "quantity": 45,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 30,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 20,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 15,
+        "name": "Oil"
+      },
+      {
+        "quantity": 100,
+        "name": "Gunpowder"
+      },
+      {
+        "quantity": 30,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 150,
+        "name": "Electronics"
+      }
+    ]
+  },
+  "Inclined Electrical Cable": {
+    "ingredients": [
+      {
+        "quantity": 2,
+        "name": "Metal Ingot"
+      }
+    ]
+  },
+  "Industrial Cooker": {
+    "ingredients": [
+      {
+        "quantity": 300,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 1800,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 450,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 300,
+        "name": "Oil"
+      }
+    ]
+  },
+  "Industrial Forge": {
+    "ingredients": [
+      {
+        "quantity": 2500,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 250,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 600,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 400,
+        "name": "Oil"
+      },
+      {
+        "quantity": 400,
+        "name": "Polymer"
+      }
+    ]
+  },
+  "Industrial Grill": {
+    "ingredients": [
+      {
+        "quantity": 200,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 30,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 40,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 40,
+        "name": "Oil"
+      }
+    ]
+  },
+  "Industrial Grinder": {
+    "ingredients": [
+      {
+        "quantity": 3200,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 2000,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 800,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 600,
+        "name": "Oil"
+      },
+      {
+        "quantity": 600,
+        "name": "Polymer"
+      }
+    ]
+  },
+  "Lamppost": {
+    "ingredients": [
+      {
+        "quantity": 5,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 10,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 2,
+        "name": "Electronics"
+      }
+    ]
+  },
+  "Large Bear Trap": {
+    "ingredients": [
+      {
+        "quantity": 10,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 6,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 15,
+        "name": "Hide"
+      }
+    ]
+  },
+  "Large Crop Plot": {
+    "ingredients": [
+      {
+        "quantity": 80,
+        "name": "Wood"
+      },
+      {
+        "quantity": 40,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 60,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 100,
+        "name": "Stone"
+      }
+    ]
+  },
+  "Large Elevator Platform": {
+    "ingredients": [
+      {
+        "quantity": 800,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 200,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 160,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Large Storage Box": {
+    "ingredients": [
+      {
+        "quantity": 50,
+        "name": "Wood"
+      },
+      {
+        "quantity": 35,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 25,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Medium Crop Plot": {
+    "ingredients": [
+      {
+        "quantity": 40,
+        "name": "Wood"
+      },
+      {
+        "quantity": 20,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 30,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 50,
+        "name": "Stone"
+      }
+    ]
+  },
+  "Medium Elevator Platform": {
+    "ingredients": [
+      {
+        "quantity": 400,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 100,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 80,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Billboard": {
+    "ingredients": [
+      {
+        "quantity": 35,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 10,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Catwalk": {
+    "ingredients": [
+      {
+        "quantity": 15,
+        "name": "Metal Ingot"
+      }
+    ]
+  },
+  "Metal Ceiling": {
+    "ingredients": [
+      {
+        "quantity": 35,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 10,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Dinosaur Gate": {
+    "ingredients": [
+      {
+        "quantity": 35,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 10,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Dinosaur Gateway": {
+    "ingredients": [
+      {
+        "quantity": 170,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 50,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Door": {
+    "ingredients": [
+      {
+        "quantity": 10,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 4,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Doorframe": {
+    "ingredients": [
+      {
+        "quantity": 20,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 6,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Fence Foundation": {
+    "ingredients": [
+      {
+        "quantity": 5,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 2,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Foundation": {
+    "ingredients": [
+      {
+        "quantity": 50,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 15,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Hatchframe": {
+    "ingredients": [
+      {
+        "quantity": 30,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 8,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Irrigation Pipe - Inclined": {
+    "ingredients": [
+      {
+        "quantity": 4,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 2,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Irrigation Pipe - Intake": {
+    "ingredients": [
+      {
+        "quantity": 15,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 5,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 10,
+        "name": "Wood"
+      }
+    ]
+  },
+  "Metal Irrigation Pipe - Intersection": {
+    "ingredients": [
+      {
+        "quantity": 6,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 3,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Irrigation Pipe - Straight": {
+    "ingredients": [
+      {
+        "quantity": 2,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 1,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Irrigation Pipe - Tap": {
+    "ingredients": [
+      {
+        "quantity": 10,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 4,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 15,
+        "name": "Wood"
+      }
+    ]
+  },
+  "Metal Irrigation Pipe - Vertical": {
+    "ingredients": [
+      {
+        "quantity": 2,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 1,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Ladder": {
+    "ingredients": [
+      {
+        "quantity": 7,
+        "name": "Metal Ingot"
+      }
+    ]
+  },
+  "Metal Pillar": {
+    "ingredients": [
+      {
+        "quantity": 25,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 7,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Railing": {
+    "ingredients": [
+      {
+        "quantity": 12,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 3,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Ramp": {
+    "ingredients": [
+      {
+        "quantity": 35,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 10,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Sign": {
+    "ingredients": [
+      {
+        "quantity": 5,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 3,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Spike Wall": {
+    "ingredients": [
+      {
+        "quantity": 25,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 20,
+        "name": "Hide"
+      },
+      {
+        "quantity": 30,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Metal Staircase": {
+    "ingredients": [
+      {
+        "quantity": 125,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 35,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Trapdoor": {
+    "ingredients": [
+      {
+        "quantity": 10,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 4,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Tree Platform": {
+    "ingredients": [
+      {
+        "quantity": 1800,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 1400,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 600,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Metal Wall": {
+    "ingredients": [
+      {
+        "quantity": 25,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 7,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Wall Sign": {
+    "ingredients": [
+      {
+        "quantity": 5,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 3,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Water Reservoir": {
+    "ingredients": [
+      {
+        "quantity": 75,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 25,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Metal Window": {
+    "ingredients": [
+      {
+        "quantity": 7,
+        "name": "Metal Ingot"
+      }
+    ]
+  },
+  "Metal Windowframe": {
+    "ingredients": [
+      {
+        "quantity": 20,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 6,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Minigun Turret": {
+    "ingredients": [
+      {
+        "quantity": 150,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 500,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 125,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 100,
+        "name": "Hide"
+      }
+    ]
+  },
+  "Mortar and Pestle": {
+    "ingredients": [
+      {
+        "quantity": 65,
+        "name": "Stone"
+      },
+      {
+        "quantity": 15,
+        "name": "Hide"
+      }
+    ]
+  },
+  "Motorboat": {
+    "ingredients": [
+      {
+        "quantity": 250,
+        "name": "Wood"
+      },
+      {
+        "quantity": 1200,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 200,
+        "name": "Hide"
+      },
+      {
+        "quantity": 180,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 150,
+        "name": "Obsidian"
+      },
+      {
+        "quantity": 400,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 60,
+        "name": "Black Pearl"
+      }
+    ]
+  },
+  "Multi-Panel Flag": {
+    "ingredients": [
+      {
+        "quantity": 10,
+        "name": "Wood"
+      },
+      {
+        "quantity": 100,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 20,
+        "name": "Hide"
+      },
+      {
+        "quantity": 30,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Omnidirectional Lamppost": {
+    "ingredients": [
+      {
+        "quantity": 5,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 10,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 2,
+        "name": "Electronics"
+      }
+    ]
+  },
+  "Painting Canvas": {
+    "ingredients": [
+      {
+        "quantity": 4,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 2,
+        "name": "Wood"
+      },
+      {
+        "quantity": 1,
+        "name": "Hide"
+      }
+    ]
+  },
+  "Preserving Bin": {
+    "ingredients": [
+      {
+        "quantity": 30,
+        "name": "Stone"
+      },
+      {
+        "quantity": 30,
+        "name": "Wood"
+      },
+      {
+        "quantity": 10,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 20,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Refining Forge": {
+    "ingredients": [
+      {
+        "quantity": 125,
+        "name": "Stone"
+      },
+      {
+        "quantity": 5,
+        "name": "Flint"
+      },
+      {
+        "quantity": 65,
+        "name": "Hide"
+      },
+      {
+        "quantity": 20,
+        "name": "Wood"
+      },
+      {
+        "quantity": 40,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Refrigerator": {
+    "ingredients": [
+      {
+        "quantity": 120,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 15,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 25,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 10,
+        "name": "Electronics"
+      }
+    ]
+  },
+  "Reinforced Dinosaur Gate": {
+    "ingredients": [
+      {
+        "quantity": 60,
+        "name": "Stone"
+      },
+      {
+        "quantity": 30,
+        "name": "Wood"
+      },
+      {
+        "quantity": 20,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Reinforced Trapdoor": {
+    "ingredients": [
+      {
+        "quantity": 20,
+        "name": "Stone"
+      },
+      {
+        "quantity": 14,
+        "name": "Wood"
+      },
+      {
+        "quantity": 8,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Reinforced Window": {
+    "ingredients": [
+      {
+        "quantity": 8,
+        "name": "Stone"
+      },
+      {
+        "quantity": 4,
+        "name": "Wood"
+      },
+      {
+        "quantity": 3,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Reinforced Wooden Door": {
+    "ingredients": [
+      {
+        "quantity": 20,
+        "name": "Stone"
+      },
+      {
+        "quantity": 14,
+        "name": "Wood"
+      },
+      {
+        "quantity": 8,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Remote Keypad": {
+    "ingredients": [
+      {
+        "quantity": 2,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 1,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 25,
+        "name": "Electronics"
+      }
+    ]
+  },
+  "Rocket Turret": {
+    "ingredients": [
+      {
+        "quantity": 400,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 1100,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 300,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 500,
+        "name": "Electronics"
+      }
+    ]
+  },
+  "Rope Ladder": {
+    "ingredients": [
+      {
+        "quantity": 15,
+        "name": "Wood"
+      },
+      {
+        "quantity": 140,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 180,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Simple Bed": {
+    "ingredients": [
+      {
+        "quantity": 15,
+        "name": "Wood"
+      },
+      {
+        "quantity": 80,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 30,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 40,
+        "name": "Hide"
+      }
+    ]
+  },
+  "Single Panel Flag": {
+    "ingredients": [
+      {
+        "quantity": 10,
+        "name": "Wood"
+      },
+      {
+        "quantity": 100,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 20,
+        "name": "Hide"
+      },
+      {
+        "quantity": 30,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Sloped Greenhouse Roof": {
+    "ingredients": [
+      {
+        "quantity": 10,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 35,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 10,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Sloped Greenhouse Wall Left": {
+    "ingredients": [
+      {
+        "quantity": 4,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 15,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 4,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Sloped Greenhouse Wall Right": {
+    "ingredients": [
+      {
+        "quantity": 4,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 15,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 4,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Sloped Metal Roof": {
+    "ingredients": [
+      {
+        "quantity": 35,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 10,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Sloped Metal Wall Left": {
+    "ingredients": [
+      {
+        "quantity": 15,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 5,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Sloped Metal Wall Right": {
+    "ingredients": [
+      {
+        "quantity": 15,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 5,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Sloped Stone Roof": {
+    "ingredients": [
+      {
+        "quantity": 60,
+        "name": "Stone"
+      },
+      {
+        "quantity": 30,
+        "name": "Wood"
+      },
+      {
+        "quantity": 20,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Sloped Stone Wall Left": {
+    "ingredients": [
+      {
+        "quantity": 20,
+        "name": "Stone"
+      },
+      {
+        "quantity": 10,
+        "name": "Wood"
+      },
+      {
+        "quantity": 10,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Sloped Stone Wall Right": {
+    "ingredients": [
+      {
+        "quantity": 20,
+        "name": "Stone"
+      },
+      {
+        "quantity": 10,
+        "name": "Wood"
+      },
+      {
+        "quantity": 10,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Sloped Tek Roof": {
+    "ingredients": [
+      {
+        "quantity": 35,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 10,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Sloped Tek Wall Left": {
+    "ingredients": [
+      {
+        "quantity": 15,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 5,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Sloped Tek Wall Right": {
+    "ingredients": [
+      {
+        "quantity": 15,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 5,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Sloped Thatch Roof": {
+    "ingredients": [
+      {
+        "quantity": 15,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 4,
+        "name": "Wood"
+      },
+      {
+        "quantity": 10,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Sloped Thatch Wall Left": {
+    "ingredients": [
+      {
+        "quantity": 10,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 2,
+        "name": "Wood"
+      },
+      {
+        "quantity": 7,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Sloped Thatch Wall Right": {
+    "ingredients": [
+      {
+        "quantity": 10,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 2,
+        "name": "Wood"
+      },
+      {
+        "quantity": 7,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Sloped Wood Wall Left": {
+    "ingredients": [
+      {
+        "quantity": 20,
+        "name": "Wood"
+      },
+      {
+        "quantity": 5,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 5,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Sloped Wood Wall Right": {
+    "ingredients": [
+      {
+        "quantity": 20,
+        "name": "Wood"
+      },
+      {
+        "quantity": 5,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 5,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Sloped Wooden Roof": {
+    "ingredients": [
+      {
+        "quantity": 60,
+        "name": "Wood"
+      },
+      {
+        "quantity": 15,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 10,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Small Crop Plot": {
+    "ingredients": [
+      {
+        "quantity": 20,
+        "name": "Wood"
+      },
+      {
+        "quantity": 10,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 15,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 25,
+        "name": "Stone"
+      }
+    ]
+  },
+  "Small Elevator Platform": {
+    "ingredients": [
+      {
+        "quantity": 200,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 50,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 40,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Smithy": {
+    "ingredients": [
+      {
+        "quantity": 5,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 50,
+        "name": "Stone"
+      },
+      {
+        "quantity": 30,
+        "name": "Wood"
+      },
+      {
+        "quantity": 20,
+        "name": "Hide"
+      }
+    ]
+  },
+  "Standing Torch": {
+    "ingredients": [
+      {
+        "quantity": 8,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 1,
+        "name": "Flint"
+      },
+      {
+        "quantity": 1,
+        "name": "Stone"
+      },
+      {
+        "quantity": 3,
+        "name": "Wood"
+      }
+    ]
+  },
+  "Stone Ceiling": {
+    "ingredients": [
+      {
+        "quantity": 60,
+        "name": "Stone"
+      },
+      {
+        "quantity": 30,
+        "name": "Wood"
+      },
+      {
+        "quantity": 20,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Stone Dinosaur Gateway": {
+    "ingredients": [
+      {
+        "quantity": 280,
+        "name": "Stone"
+      },
+      {
+        "quantity": 140,
+        "name": "Wood"
+      },
+      {
+        "quantity": 100,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Stone Doorframe": {
+    "ingredients": [
+      {
+        "quantity": 30,
+        "name": "Stone"
+      },
+      {
+        "quantity": 16,
+        "name": "Wood"
+      },
+      {
+        "quantity": 12,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Stone Fence Foundation": {
+    "ingredients": [
+      {
+        "quantity": 15,
+        "name": "Stone"
+      },
+      {
+        "quantity": 10,
+        "name": "Wood"
+      },
+      {
+        "quantity": 10,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Stone Fireplace": {
+    "ingredients": [
+      {
+        "quantity": 450,
+        "name": "Stone"
+      },
+      {
+        "quantity": 120,
+        "name": "Wood"
+      },
+      {
+        "quantity": 80,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 20,
+        "name": "Flint"
+      }
+    ]
+  },
+  "Stone Foundation": {
+    "ingredients": [
+      {
+        "quantity": 80,
+        "name": "Stone"
+      },
+      {
+        "quantity": 40,
+        "name": "Wood"
+      },
+      {
+        "quantity": 30,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Stone Hatchframe": {
+    "ingredients": [
+      {
+        "quantity": 50,
+        "name": "Stone"
+      },
+      {
+        "quantity": 25,
+        "name": "Wood"
+      },
+      {
+        "quantity": 15,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Stone Irrigation Pipe - Inclined": {
+    "ingredients": [
+      {
+        "quantity": 10,
+        "name": "Stone"
+      }
+    ]
+  },
+  "Stone Irrigation Pipe - Intake": {
+    "ingredients": [
+      {
+        "quantity": 25,
+        "name": "Stone"
+      }
+    ]
+  },
+  "Stone Irrigation Pipe - Intersection": {
+    "ingredients": [
+      {
+        "quantity": 15,
+        "name": "Stone"
+      }
+    ]
+  },
+  "Stone Irrigation Pipe - Straight": {
+    "ingredients": [
+      {
+        "quantity": 5,
+        "name": "Stone"
+      }
+    ]
+  },
+  "Stone Irrigation Pipe - Tap": {
+    "ingredients": [
+      {
+        "quantity": 10,
+        "name": "Stone"
+      },
+      {
+        "quantity": 15,
+        "name": "Wood"
+      }
+    ]
+  },
+  "Stone Irrigation Pipe - Vertical": {
+    "ingredients": [
+      {
+        "quantity": 5,
+        "name": "Stone"
+      }
+    ]
+  },
+  "Stone Pillar": {
+    "ingredients": [
+      {
+        "quantity": 30,
+        "name": "Stone"
+      },
+      {
+        "quantity": 15,
+        "name": "Wood"
+      },
+      {
+        "quantity": 10,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Stone Railing": {
+    "ingredients": [
+      {
+        "quantity": 20,
+        "name": "Stone"
+      },
+      {
+        "quantity": 10,
+        "name": "Wood"
+      },
+      {
+        "quantity": 7,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Stone Staircase": {
+    "ingredients": [
+      {
+        "quantity": 200,
+        "name": "Stone"
+      },
+      {
+        "quantity": 100,
+        "name": "Wood"
+      },
+      {
+        "quantity": 75,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Stone Wall": {
+    "ingredients": [
+      {
+        "quantity": 40,
+        "name": "Stone"
+      },
+      {
+        "quantity": 20,
+        "name": "Wood"
+      },
+      {
+        "quantity": 15,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Stone Windowframe": {
+    "ingredients": [
+      {
+        "quantity": 35,
+        "name": "Stone"
+      },
+      {
+        "quantity": 18,
+        "name": "Wood"
+      },
+      {
+        "quantity": 12,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Storage Box": {
+    "ingredients": [
+      {
+        "quantity": 25,
+        "name": "Wood"
+      },
+      {
+        "quantity": 20,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 10,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Straight Electrical Cable": {
+    "ingredients": [
+      {
+        "quantity": 2,
+        "name": "Metal Ingot"
+      }
+    ]
+  },
+  "Tek ATV": {
+    "ingredients": [
+      {
+        "quantity": 4000,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 200,
+        "name": "Element"
+      },
+      {
+        "quantity": 500,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 500,
+        "name": "Electronics"
+      },
+      {
+        "quantity": 150,
+        "name": "Black Pearl"
+      }
+    ]
+  },
+  "Tek Catwalk": {
+    "ingredients": [
+      {
+        "quantity": 72,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 1,
+        "name": "Element"
+      },
+      {
+        "quantity": 40,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 20,
+        "name": "Crystal"
+      }
+    ]
+  },
+  "Tek Ceiling": {
+    "ingredients": [
+      {
+        "quantity": 50,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 25,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 20,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 1,
+        "name": "Element"
+      }
+    ]
+  },
+  "Tek Dinosaur Gate": {
+    "ingredients": [
+      {
+        "quantity": 2,
+        "name": "Element"
+      },
+      {
+        "quantity": 30,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 35,
+        "name": "Crystal"
+      }
+    ]
+  },
+  "Tek Dinosaur Gateway": {
+    "ingredients": [
+      {
+        "quantity": 170,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 50,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 30,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 2,
+        "name": "Element"
+      }
+    ]
+  },
+  "Tek Door": {
+    "ingredients": [
+      {
+        "quantity": 1,
+        "name": "Element"
+      },
+      {
+        "quantity": 60,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 40,
+        "name": "Polymer"
+      }
+    ]
+  },
+  "Tek Doorframe": {
+    "ingredients": [
+      {
+        "quantity": 30,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 15,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 5,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 1,
+        "name": "Element"
+      }
+    ]
+  },
+  "Tek Fence Foundation": {
+    "ingredients": [
+      {
+        "quantity": 5,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 2,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Tek Forcefield": {
+    "ingredients": [
+      {
+        "quantity": 75,
+        "name": "Element"
+      },
+      {
+        "quantity": 5000,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 600,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 150,
+        "name": "Black Pearl"
+      },
+      {
+        "quantity": 800,
+        "name": "Polymer"
+      }
+    ]
+  },
+  "Tek Foundation": {
+    "ingredients": [
+      {
+        "quantity": 100,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 45,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 20,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 1,
+        "name": "Element"
+      }
+    ]
+  },
+  "Tek Generator": {
+    "ingredients": [
+      {
+        "quantity": 30,
+        "name": "Element"
+      },
+      {
+        "quantity": 2400,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 250,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 120,
+        "name": "Black Pearl"
+      },
+      {
+        "quantity": 500,
+        "name": "Polymer"
+      }
+    ]
+  },
+  "Tek Hatchframe": {
+    "ingredients": [
+      {
+        "quantity": 50,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 25,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 10,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 1,
+        "name": "Element"
+      }
+    ]
+  },
+  "Tek Ladder": {
+    "ingredients": [
+      {
+        "quantity": 28,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 20,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 8,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 1,
+        "name": "Element"
+      }
+    ]
+  },
+  "Tek Light": {
+    "ingredients": [
+      {
+        "quantity": 90,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 40,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 20,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 2,
+        "name": "Element"
+      },
+      {
+        "quantity": 1,
+        "name": "Black Pearl"
+      }
+    ]
+  },
+  "Tek Pillar": {
+    "ingredients": [
+      {
+        "quantity": 60,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 14,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 10,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 1,
+        "name": "Element"
+      }
+    ]
+  },
+  "Tek Railing": {
+    "ingredients": [
+      {
+        "quantity": 12,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 3,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Tek Ramp": {
+    "ingredients": [
+      {
+        "quantity": 70,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 20,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 20,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 1,
+        "name": "Element"
+      }
+    ]
+  },
+  "Tek Replicator": {
+    "ingredients": [
+      {
+        "quantity": 100,
+        "name": "Element"
+      },
+      {
+        "quantity": 5000,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 600,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 150,
+        "name": "Black Pearl"
+      },
+      {
+        "quantity": 800,
+        "name": "Polymer"
+      }
+    ]
+  },
+  "Tek Staircase": {
+    "ingredients": [
+      {
+        "quantity": 125,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 35,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Tek Teleporter": {
+    "ingredients": [
+      {
+        "quantity": 85,
+        "name": "Element"
+      },
+      {
+        "quantity": 2500,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 600,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 150,
+        "name": "Black Pearl"
+      },
+      {
+        "quantity": 1200,
+        "name": "Polymer"
+      }
+    ]
+  },
+  "Tek Transmitter": {
+    "ingredients": [
+      {
+        "quantity": 40,
+        "name": "Element"
+      },
+      {
+        "quantity": 2500,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 250,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 80,
+        "name": "Black Pearl"
+      },
+      {
+        "quantity": 320,
+        "name": "Polymer"
+      }
+    ]
+  },
+  "Tek Trapdoor": {
+    "ingredients": [
+      {
+        "quantity": 40,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 16,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 1,
+        "name": "Element"
+      }
+    ]
+  },
+  "Tek Trough": {
+    "ingredients": [
+      {
+        "quantity": 50,
+        "name": "Electronics"
+      },
+      {
+        "quantity": 900,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 100,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 45,
+        "name": "Black Pearl"
+      },
+      {
+        "quantity": 175,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 18,
+        "name": "Element"
+      }
+    ]
+  },
+  "Tek Turret": {
+    "ingredients": [
+      {
+        "quantity": 100,
+        "name": "Electronics"
+      },
+      {
+        "quantity": 100,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 50,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 50,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 3,
+        "name": "Element"
+      }
+    ]
+  },
+  "Tek Wall": {
+    "ingredients": [
+      {
+        "quantity": 35,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 20,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 15,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 1,
+        "name": "Element"
+      }
+    ]
+  },
+  "Tek Window": {
+    "ingredients": [
+      {
+        "quantity": 40,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 16,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 1,
+        "name": "Element"
+      }
+    ]
+  },
+  "Tek Windowframe": {
+    "ingredients": [
+      {
+        "quantity": 30,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 15,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 5,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 1,
+        "name": "Element"
+      }
+    ]
+  },
+  "Thatch Ceiling": {
+    "ingredients": [
+      {
+        "quantity": 15,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 4,
+        "name": "Wood"
+      },
+      {
+        "quantity": 10,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Thatch Door": {
+    "ingredients": [
+      {
+        "quantity": 7,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 4,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Thatch Doorframe": {
+    "ingredients": [
+      {
+        "quantity": 8,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 6,
+        "name": "Wood"
+      },
+      {
+        "quantity": 6,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Thatch Foundation": {
+    "ingredients": [
+      {
+        "quantity": 20,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 6,
+        "name": "Wood"
+      },
+      {
+        "quantity": 15,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Thatch Wall": {
+    "ingredients": [
+      {
+        "quantity": 10,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 2,
+        "name": "Wood"
+      },
+      {
+        "quantity": 7,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Toilet": {
+    "ingredients": [
+      {
+        "quantity": 30,
+        "name": "Stone"
+      },
+      {
+        "quantity": 70,
+        "name": "Wood"
+      },
+      {
+        "quantity": 180,
+        "name": "Metal"
+      },
+      {
+        "quantity": 200,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 40,
+        "name": "Crystal"
+      }
+    ]
+  },
+  "Training Dummy": {
+    "ingredients": [
+      {
+        "quantity": 500,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 80,
+        "name": "Wood"
+      },
+      {
+        "quantity": 500,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 10,
+        "name": "Hide"
+      }
+    ]
+  },
+  "Tree Sap Tap": {
+    "ingredients": [
+      {
+        "quantity": 100,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 40,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Trophy Wall-Mount": {
+    "ingredients": [
+      {
+        "quantity": 200,
+        "name": "Wood"
+      },
+      {
+        "quantity": 80,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Vacuum Compartment": {
+    "ingredients": [
+      {
+        "quantity": 450,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 170,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 225,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 3,
+        "name": "Element"
+      },
+      {
+        "quantity": 40,
+        "name": "Black Pearl"
+      }
+    ]
+  },
+  "Vacuum Compartment Moonpool": {
+    "ingredients": [
+      {
+        "quantity": 450,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 170,
+        "name": "Polymer"
+      },
+      {
+        "quantity": 225,
+        "name": "Crystal"
+      },
+      {
+        "quantity": 3,
+        "name": "Element"
+      },
+      {
+        "quantity": 40,
+        "name": "Black Pearl"
+      }
+    ]
+  },
+  "Vault": {
+    "ingredients": [
+      {
+        "quantity": 500,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 100,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 70,
+        "name": "Oil"
+      },
+      {
+        "quantity": 90,
+        "name": "Polymer"
+      }
+    ]
+  },
+  "Vertical Electrical Cable": {
+    "ingredients": [
+      {
+        "quantity": 2,
+        "name": "Metal Ingot"
+      }
+    ]
+  },
+  "Wall Torch": {
+    "ingredients": [
+      {
+        "quantity": 4,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 1,
+        "name": "Flint"
+      },
+      {
+        "quantity": 1,
+        "name": "Stone"
+      },
+      {
+        "quantity": 2,
+        "name": "Wood"
+      },
+      {
+        "quantity": 1,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 1,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "War Map": {
+    "ingredients": [
+      {
+        "quantity": 4,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 2,
+        "name": "Wood"
+      },
+      {
+        "quantity": 1,
+        "name": "Hide"
+      }
+    ]
+  },
+  "Wardrums": {
+    "ingredients": [
+      {
+        "quantity": 380,
+        "name": "Wood"
+      },
+      {
+        "quantity": 220,
+        "name": "Hide"
+      },
+      {
+        "quantity": 200,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 200,
+        "name": "Thatch"
+      }
+    ]
+  },
+  "Water Reservoir": {
+    "ingredients": [
+      {
+        "quantity": 30,
+        "name": "Stone"
+      },
+      {
+        "quantity": 5,
+        "name": "Cementing Paste"
+      }
+    ]
+  },
+  "Wooden Bench": {
+    "ingredients": [
+      {
+        "quantity": 120,
+        "name": "Wood"
+      },
+      {
+        "quantity": 55,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 45,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Billboard": {
+    "ingredients": [
+      {
+        "quantity": 60,
+        "name": "Wood"
+      },
+      {
+        "quantity": 15,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 10,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Cage": {
+    "ingredients": [
+      {
+        "quantity": 110,
+        "name": "Wood"
+      },
+      {
+        "quantity": 30,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 25,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Catwalk": {
+    "ingredients": [
+      {
+        "quantity": 20,
+        "name": "Wood"
+      },
+      {
+        "quantity": 7,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 4,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Ceiling": {
+    "ingredients": [
+      {
+        "quantity": 60,
+        "name": "Wood"
+      },
+      {
+        "quantity": 15,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 10,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Chair": {
+    "ingredients": [
+      {
+        "quantity": 30,
+        "name": "Wood"
+      },
+      {
+        "quantity": 18,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 14,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Door": {
+    "ingredients": [
+      {
+        "quantity": 20,
+        "name": "Wood"
+      },
+      {
+        "quantity": 7,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 4,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Doorframe": {
+    "ingredients": [
+      {
+        "quantity": 30,
+        "name": "Wood"
+      },
+      {
+        "quantity": 8,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 6,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Fence Foundation": {
+    "ingredients": [
+      {
+        "quantity": 10,
+        "name": "Wood"
+      },
+      {
+        "quantity": 3,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 2,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Foundation": {
+    "ingredients": [
+      {
+        "quantity": 80,
+        "name": "Wood"
+      },
+      {
+        "quantity": 20,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 15,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Hatchframe": {
+    "ingredients": [
+      {
+        "quantity": 50,
+        "name": "Wood"
+      },
+      {
+        "quantity": 12,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 8,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Ladder": {
+    "ingredients": [
+      {
+        "quantity": 4,
+        "name": "Wood"
+      },
+      {
+        "quantity": 7,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 4,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Pillar": {
+    "ingredients": [
+      {
+        "quantity": 40,
+        "name": "Wood"
+      },
+      {
+        "quantity": 10,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 7,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Raft": {
+    "ingredients": [
+      {
+        "quantity": 250,
+        "name": "Wood"
+      },
+      {
+        "quantity": 125,
+        "name": "Fiber"
+      },
+      {
+        "quantity": 75,
+        "name": "Hide"
+      }
+    ]
+  },
+  "Wooden Railing": {
+    "ingredients": [
+      {
+        "quantity": 20,
+        "name": "Wood"
+      },
+      {
+        "quantity": 5,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 3,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Ramp": {
+    "ingredients": [
+      {
+        "quantity": 60,
+        "name": "Wood"
+      },
+      {
+        "quantity": 15,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 10,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Sign": {
+    "ingredients": [
+      {
+        "quantity": 5,
+        "name": "Wood"
+      },
+      {
+        "quantity": 3,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 4,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Spike Wall": {
+    "ingredients": [
+      {
+        "quantity": 40,
+        "name": "Wood"
+      },
+      {
+        "quantity": 10,
+        "name": "Hide"
+      },
+      {
+        "quantity": 30,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Staircase": {
+    "ingredients": [
+      {
+        "quantity": 200,
+        "name": "Wood"
+      },
+      {
+        "quantity": 50,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 35,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Table": {
+    "ingredients": [
+      {
+        "quantity": 100,
+        "name": "Wood"
+      },
+      {
+        "quantity": 12,
+        "name": "Metal"
+      }
+    ]
+  },
+  "Wooden Trapdoor": {
+    "ingredients": [
+      {
+        "quantity": 20,
+        "name": "Wood"
+      },
+      {
+        "quantity": 7,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 4,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Tree Platform": {
+    "ingredients": [
+      {
+        "quantity": 1600,
+        "name": "Wood"
+      },
+      {
+        "quantity": 200,
+        "name": "Metal Ingot"
+      },
+      {
+        "quantity": 600,
+        "name": "Cementing Paste"
+      },
+      {
+        "quantity": 600,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Wall": {
+    "ingredients": [
+      {
+        "quantity": 40,
+        "name": "Wood"
+      },
+      {
+        "quantity": 10,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 7,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Wall Sign": {
+    "ingredients": [
+      {
+        "quantity": 3,
+        "name": "Wood"
+      },
+      {
+        "quantity": 2,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 2,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Window": {
+    "ingredients": [
+      {
+        "quantity": 8,
+        "name": "Wood"
+      },
+      {
+        "quantity": 2,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 1,
+        "name": "Fiber"
+      }
+    ]
+  },
+  "Wooden Windowframe": {
+    "ingredients": [
+      {
+        "quantity": 36,
+        "name": "Wood"
+      },
+      {
+        "quantity": 9,
+        "name": "Thatch"
+      },
+      {
+        "quantity": 6,
+        "name": "Fiber"
+      }
+    ]
+  }
+}

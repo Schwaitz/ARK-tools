@@ -49,13 +49,15 @@ var map_resources = {
     "Aberration": ["gasVeins", "drakeNests", "crystal", "metal", "richMetal", "obsidian", "silica", "oil", "riverRock", "blackPearl", "polymer", "elementOre", "keratin", "blueGem", "greenGem", "redGem"],
     "Extinction": ["crystal", "metal", "richMetal", "obsidian", "oil", "riverRock"],
     "Crystal": ["oilVeins", "oilVeins2", "waterVeins", "gasVeins", "drakeNests", "wyvernNests", "salt", "sulfur", "crystal", "metal", "richMetal", "obsidian", "silica", "oil", "riverRock", "cactus", "elementOre", "keratin", "greenGem", "redGem",],
-    "Genesis": ["oilVeins", "salt", "sulfur", "crystal", "metal", "richMetal", "obsidian", "oil", "riverRock", "blueGem", "greenGem", "redGem"]
+    "Genesis1": ["oilVeins", "oilVeins2", "salt", "sulfur", "crystal", "metal", "richMetal", "obsidian", "oil", "riverRock", "blueGem", "greenGem", "redGem"],
+    "Genesis2": ["oilVeins", "oilVeins2", "crystal", "metal", "richMetal", "obsidian", "silica", "oil", "riverRock",]
     // "Valguero": [],
 };
 
 var currentMap = "Ragnarok";
 
 $(document).ready(function () {
+
 
     // $("#current-map").text(currentMap);
 
@@ -149,10 +151,17 @@ function loadMap(name) {
         // $("#output").append("<img height='800' id='mapImage' width='800'>");
         loadLegend(name);
         var map = name;
-        fetch('assets/maps/json/' + map + '/map.min.json', {cache: 'reload'}).then(function (response) {
+
+        var assets_path = 'assets/';
+
+        if(window.location.pathname === "/ark/maps/"){
+            assets_path = '../assets/';
+        }
+
+        fetch(assets_path + 'maps/json/' + map + '/map.min.json', {cache: 'reload'}).then(function (response) {
             return response.json();
         }).then(function (data) {
-            document.getElementById('mapImage').src = 'assets/maps/imgs/' + map + ".jpg";
+            document.getElementById('mapImage').src = assets_path + 'maps/imgs/' + map + ".jpg";
 
             var output = document.getElementById('output');
             while (output.firstChild && output.firstChild.nodeName === 'DIV') {

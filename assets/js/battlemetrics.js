@@ -1,62 +1,66 @@
 var servers = {
-    Ragnarok: {
-        name: "Ragnarok",
-        code: "ynsmd",
-        src: 'https://cdn.battlemetrics.com/b/standardVertical/6654616.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight='
-    },
-    Extinction: {
-        name: "Extinction",
-        code: "amisf",
-        src: 'https://cdn.battlemetrics.com/b/standardVertical/6654623.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight='
-    },
     TheIsland: {
         name: "The Island",
-        code: "nxogt",
-        src: 'https://cdn.battlemetrics.com/b/standardVertical/6654622.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight='
+        code: 'lthay',
+        src: 'https://cdn.battlemetrics.com/b/standardVertical/13104434.png?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight=300'
     },
-    Genesis: {
-        name: "Genesis",
-        code: "upywn",
-        src: 'https://cdn.battlemetrics.com/b/standardVertical/6654621.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight='
+    Ragnarok: {
+        name: "Ragnarok",
+        code: 'jnyqh',
+        src: 'https://cdn.battlemetrics.com/b/standardVertical/13104450.png?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight=300'
     },
     Aberration: {
         name: "Aberration",
-        code: "prkox",
-        src: 'https://cdn.battlemetrics.com/b/standardVertical/8813445.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight='
+        code: 'https://cdn.battlemetrics.com/b/standardVertical/13104437.png?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight=300',
+        src: 'jfeet'
     },
-    CrystalIsles: {
-        name: "Crystal Isles",
-        code: "tdrbm",
-        src: 'https://cdn.battlemetrics.com/b/standardVertical/7274534.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight='
+    Extinction: {
+        name: "Extinction",
+        code: 'islnj',
+        src: 'https://cdn.battlemetrics.com/b/standardVertical/13104436.png?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight=300'
     },
-    ScorchedEarth: {
-        name: "Scorched Earth",
-        code: "zxyxi",
-        src: 'https://cdn.battlemetrics.com/b/standardVertical/6654613.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight='
+    Genesis1: {
+        name: "Genesis1",
+        code: 'hpvsp',
+        src: 'https://cdn.battlemetrics.com/b/standardVertical/13104433.png?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight=300'
     },
-    TheCenter: {
-        name: "The Center",
-        code: "ciijn",
-        src: 'https://cdn.battlemetrics.com/b/standardVertical/6654615.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight='
+    Genesis2: {
+        name: "Genesis2",
+        code: 'qmslm',
+        src: 'https://cdn.battlemetrics.com/b/standardVertical/13104435.png?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight=300'
     },
-    Valguero: {
-        name: "Valguero",
-        code: "jesdc",
-        src: 'https://cdn.battlemetrics.com/b/standardVertical/6654614.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight='
+    LostIsland: {
+        name: "LostIsland",
+        code: 'aubuv',
+        src: 'https://cdn.battlemetrics.com/b/standardVertical/13625752.png?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3ART&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight=300'
     },
+    // CrystalIsles: {
+    //     name: "Crystal Isles",
+    //     code: '',
+    //     src: ''
+    // },
+    // ScorchedEarth: {
+    //     name: "Scorched Earth",
+    //     code: '',
+    //     src: ''
+    // },
+    // TheCenter: {
+    //     name: "The Center",
+    //     code: '',
+    //     src: ''
+    // },
+
 
 };
 
 var serverIds = {
-    "Ragnarok": "6654616",
-    "The Center": "6654615",
-    "Valguero": "6654614",
-    "Crystal Isles": "7274534",
-    "Genesis": "6654621",
-    "The Island": "6654622",
-    "Extinction": "6654623",
-    "Scorched Earth": "6654613",
-    "Aberration": "8813445",
+    "TheIsland": "13104434",
+    "Ragnarok": "13104450",
+    "Aberration": "13104437",
+    "Extinction": "13104436",
+    "Genesis1": "13104433",
+    "Genesis2": "13104435",
+    "LostIsland": "13625752",
 };
 
 
@@ -94,6 +98,7 @@ $(document).ready(function () {
         }
     });
 
+
 });
 
 
@@ -101,29 +106,6 @@ function handleMapChange(serverName) {
     var serverID = serverIds[serverName];
     $("#selected-map").text(serverName);
 
-    // $.getJSON("https://api.battlemetrics.com/servers/" + serverID + "?include=player", function (obj) {
-    //     // var player_count = parseInt(obj["data"]["attributes"]["players"]);
-    //     // var map = obj["data"]["attributes"]["details"]["map"];
-    //
-    //     $("#selected-map").text(serverName);
-    //
-    //     $("#player-list-header").text("Player List");
-    //     $("#player-list-ul").innerHTML = "";
-    //
-    //     var players = [];
-    //
-    //     for (var i = 0; i < obj["included"].length; i++) {
-    //         if (obj["included"][i]["type"] === "player") {
-    //             players.push(obj["included"][i]["attributes"]["name"])
-    //         }
-    //     }
-    //
-    //     for (var i = 0; i < players.length; i++) {
-    //         $("#player-list-ul").append("<li id='player-list-" + players[i] + "'>" + players[i] + "</li>");
-    //     }
-    //
-    //     console.log(obj)
-    // });
 }
 
 
@@ -133,5 +115,59 @@ function handleBMLoading(code, src) {
     } else {
         bm_loaded = true;
     }
-    $("#bm-space").append("<iframe frameborder=0 name='" + code + "' src='" + src + "' style='border:0'></iframe>");
+    $("#bm-space").append("<iframe scrolling=\"no\" frameborder=0 name='" + code + "' src='" + src + "' style='border:0;height:100%'></iframe>");
 }
+
+
+function apiGETPlayers(serverName) {
+
+    $.ajax({
+        url: "https://api.battlemetrics.com/servers/" + serverIds[serverName] + "?include=player",
+        type: 'GET',
+        dataType: 'json',
+        success: function (obj) {
+
+            // var player_count = parseInt(obj["data"]["attributes"]["players"]);
+            // var map = obj["data"]["attributes"]["details"]["map"];
+
+            var players = [];
+
+            for (var i = 0; i < obj["included"].length; i++) {
+                if (obj["included"][i]["type"] === "player") {
+                    players.push(obj["included"][i]["attributes"]["name"])
+                }
+            }
+
+            console.log("-----Online Players-----");
+            for (var i = 0; i < players.length; i++) {
+                console.log(players[i]);
+            }
+            console.log("----------------------");
+
+            console.log(obj)
+
+            console.log("\n");
+
+        },
+        error: function () {
+            console.log('Failed to fetch players from API');
+        },
+        beforeSend: setHeader
+    });
+
+    function setHeader(xhr) {
+        // xhr.setRequestHeader('Authorization', 'Bearer Token goes here, not putting it in plain text lmao');
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
